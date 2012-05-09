@@ -4,7 +4,7 @@ Donate link: http://om4.com.au/wordpress-plugins/#donate
 Tags: custom post type, cpt, post type, label, editor, cms, wp, multisite, wpmu
 Requires at least: 3.2
 Tested up to: 3.4
-Stable tag: 1.0
+Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -19,7 +19,6 @@ For example, you could customise the following Custom Post Types:
 * The `Posts` Custom Post Type (created by WordPress Core)
 * The `Pages` Custom Post Type (created by WordPress Core)
 * The `Media` Custom Post Type (created by WordPress Core)
-* The `Revisions` Custom Post Type (created by WordPress Core)
 * Any Custom Post Type that is created by a WordPress plugin
 * Any Custom Post Type that is created by a WordPress theme
 
@@ -51,11 +50,22 @@ No. It uses WordPress' hook/filter to override Custom Post Type definitions on-t
 
 No. If you deactivate this plugin, your Custom Post Type definitions will revert to their defaults.
 
+= I found a bug. How can I contribute a patch or bug fix? =
+Fork our [Github Repository](https://github.com/OM4/cpt-editor) and send us a pull request.
+
 == Screenshots ==
 1. The list of registered Custom Post Types
 1. The interface for editing a Custom Post Type
 
 == Changelog ==
 
+= 1.0.1 =
+* Add support for customising WordPress' built-in Posts, Pages and Media dashboard menu labels. Thanks to Aaron Rutley for testing this.
+
 = 1.0 =
 * Initial release.
+
+== Upgrade Notice ==
+
+= 1.0.1 =
+* Adds support for customising WordPress' built-in Posts, Pages and Media dashboard menu labels.
