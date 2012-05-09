@@ -4,17 +4,17 @@ Donate link: http://om4.com.au/wordpress-plugins/#donate
 Tags: custom post type, cpt, post type, label, editor, cms, wp, multisite, wpmu
 Requires at least: 3.2
 Tested up to: 3.4
-Stable tag: trunk
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Customise (override) the text labels for any registered custom post type using a simple Dashboard user interface.
+Customize the text labels or menu names for any registered custom post type using a simple Dashboard user interface.
 
 == Description ==
 
-This plugin provides a simple to use Dashboard interface. No PHP file editing is necessary!
+Customize the text labels or menu names for any registered custom post type using a simple Dashboard user interface. No PHP file editing is necessary!
 
-For example, you could customise the following Custom Post Types:
+For example, you could customize the following Custom Post Types:
 
 * The `Posts` Custom Post Type (created by WordPress Core)
 * The `Pages` Custom Post Type (created by WordPress Core)
@@ -24,8 +24,8 @@ For example, you could customise the following Custom Post Types:
 
 This means that you no longer have to modify PHP files in order to rename a Custom Post Type! Using this plugin, you can now make those changes using a simple interface in your WordPress dashboard. See the [screenshots](http://wordpress.org/extend/plugins/cpt-editor/screenshots/) for details.
 
-* Want to rename `Posts` to `Blog Posts`?
-* Want to rename `Media` to `Uploads`?
+* Want to rename `Posts` to `News`?
+* Want to rename `Media` to `Files`?
 * Want to rename the WooThemes’ `Features` post type to `Tours`?
 
 You can do all of this (and more) using this plugin.
@@ -51,13 +51,21 @@ No. It uses WordPress' hook/filter to override Custom Post Type definitions on-t
 No. If you deactivate this plugin, your Custom Post Type definitions will revert to their defaults.
 
 = I found a bug. How can I contribute a patch or bug fix? =
-Fork our [Github Repository](https://github.com/OM4/cpt-editor) and send us a pull request.
+
+We'd love you to fork our [Github Repository](https://github.com/OM4/cpt-editor) and send us a pull request.
+
+Alternatively, you can report a bug on our [Issue Tracker](https://github.com/OM4/cpt-editor/issues).
 
 == Screenshots ==
 1. The list of registered Custom Post Types
 1. The interface for editing a Custom Post Type
 
 == Changelog ==
+
+= 1.0.2 =
+* Documentation updates
+* US spelling
+* Screenshot updates
 
 = 1.0.1 =
 * Add support for customising WordPress' built-in Posts, Pages and Media dashboard menu labels. Thanks to Aaron Rutley for testing this.
@@ -66,6 +74,9 @@ Fork our [Github Repository](https://github.com/OM4/cpt-editor) and send us a pu
 * Initial release.
 
 == Upgrade Notice ==
+
+= 1.0.2 =
+* Documentation, spelling and screenshot updates.
 
 = 1.0.1 =
 * Adds support for customising WordPress' built-in Posts, Pages and Media dashboard menu labels.
